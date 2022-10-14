@@ -107,7 +107,7 @@ public class DLLNode {
         return temp;
     }
 
-    // Method menghapus setelah node tertentu
+    // Method menghapus node tertentu sesuai input
     public void deleteSelectionValue(int del_val) {
         Node target = find(del_val);
 
